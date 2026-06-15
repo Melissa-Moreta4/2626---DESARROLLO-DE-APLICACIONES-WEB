@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lillymiel Boutique</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf6f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #f7d6d0;
+            color: #2d5a27;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #d4af37;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #2d5a27;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #f7d6d0;
+        }
+
+        h2 {
+            color: #2d5a27;
+            border-left: 5px solid #d4af37;
+            padding-left: 10px;
+        }
+
+        .img-placeholder {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border: 2px solid #d4af37;
+        }
+
+        ul {
+            list-style-type: square;
+            color: #2d5a27;
+        }
+
+        ul li {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact-links a {
+            color: #2d5a27;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-links a:hover {
+            color: #d4af37;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: 2px solid #d4af37;
+        }
+
+        aside {
+            background-color: #f7d6d0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #2d5a27;
+            margin-top: 20px;
+        }
+
+        aside h3 {
+            margin-top: 0;
+            color: #2d5a27;
+        }
+
+        footer {
+            background-color: #2d5a27;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 0.9em;
+            border-top: 3px solid #d4af37;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>LILLYMIEL BOUTIQUE</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios-productos">Servicios o Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a Lillymiel</h2>
+            <p>Descubre las últimas tendencias en moda y accesorios diseñados exclusivamente para resaltar tu estilo
+                único y sofisticación. En Lillymiel creamos espacios donde la elegancia y la comodidad se encuentran en
+                cada prenda.</p>
+        </section>
+
+        <section id="quienes-somos">
+            <h2>Quiénes Somos</h2>
+            <p>Lillymiel es un emprendimiento de moda que nació con el firme propósito de transformar la experiencia de
+                compra de ropa femenina. Nos dedicamos a seleccionar piezas exclusivas que combinan alta costura,
+                texturas delicadas y diseños vanguardistas para la mujer contemporánea. Nuestro sistema web busca
+                conectar directamente con nuestras clientas, ofreciendo asesoría de imagen personalizada y un catálogo
+                interactivo que facilita la elección del outfit perfecto para cualquier ocasión especial. Nos apasiona
+                la autenticidad y trabajamos diariamente para que cada prenda cuente una historia de confianza,
+                empoderamiento, amor propio y elegancia sin esfuerzo para quienes nos eligen.</p>
+
+            <img src="./Imagen-Boutique.png" alt="Interior de Lillymiel Boutique" class="img-placeholder">
+        </section>
+
+        <section id="servicios-productos">
+            <h2>Nuestros Servicios y Productos</h2>
+            <ul>
+                <li>Colecciones de temporada exclusivas (primavera, verano, otoño, invierno).</li>
+                <li>Asesoría de imagen personalizada presencial y virtual.</li>
+                <li>Línea completa de accesorios, bolsos y calzado fino.</li>
+                <li>Envíos nacionales totalmente asegurados a la puerta de tu hogar.</li>
+            </ul>
+            <img src="./Boutique-Colecciones.png" alt="Interior de Lillymiel Boutique" class="img-placeholder">
+        </section>
+
+        <section id="contacto" class="contact-links">
+            <h2>Contacto</h2>
+            <p><strong>Correo electrónico:</strong> <a href="mailto:info@lillymiel.com">info@lillymiel.com</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+5934562789">+593 4562 789</a></p>
+            <p><strong>Dirección:</strong> Av. 20 de Febrero y Calle Orellana, Local 14</p>
+            <p><strong>Redes Sociales:</strong> <a href="https://instagram.com" target="_blank">@LillymielBoutique</a>
+            </p>
+
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DHTpwpDKLcY?si=Pmw-Z9B8RBZnO_no"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <aside>
+            <h3>Promociones y Horarios</h3>
+            <p><strong>Gran Apertura:</strong> 15% de descuento en tu primera compra online utilizando el código
+                LILLY15.</p>
+            <p><strong>Horario de atención:</strong> Lunes a Sábado de 09:00 AM a 07:00 PM.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Estudiante: Melissa Moreta | Asignatura: Desarrollo de Aplicaciones Web | Año: 2026</p>
+    </footer>
+
+</body>
+</html>
