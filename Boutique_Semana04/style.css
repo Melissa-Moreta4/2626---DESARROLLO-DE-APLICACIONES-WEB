@@ -104,20 +104,19 @@ footer {
     color: #e2e8f0;
 }
 
-/* --- MEDIA QUERY REQUERIDA (Pantallas Pequeñas < 768px) --- */
 @media (max-width: 767.98px) {
     header h1 {
-        font-size: 1.8rem !important; /* Reduce el tamaño del título principal en móviles */
+        font-size: 1.8rem !important; 
     }
     
     h2 {
         font-size: 1.5rem;
-        border-left: 4px solid #d4af37; /* Línea de título más delgada */
+        border-left: 4px solid #d4af37; 
     }
 
     main {
         margin-top: 10px !important;
-        padding: 15px !important; /* Reduce márgenes internos en celular */
+        padding: 15px !important; 
     }
 }
 
