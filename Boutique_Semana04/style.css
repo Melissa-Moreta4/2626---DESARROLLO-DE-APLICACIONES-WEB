@@ -120,3 +120,21 @@ footer {
         padding: 15px !important; /* Reduce márgenes internos en celular */
     }
 }
+
+img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+}
+
+img:hover {
+    transform: scale(1.03) !important; 
+    box-shadow: 0 8px 16px rgba(45, 90, 39, 0.25) !important; 
+}
+
+.nav-link {
+    transition: transform 0.2s ease, color 0.2s ease !important;
+}
+
+.nav-link:hover {
+    transform: translateY(-2px) !important; 
+    color: #d4af37 !important; 
+}
