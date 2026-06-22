@@ -1,0 +1,122 @@
+/* --- CONFIGURACIONES GENERALES --- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #faf6f0;
+    color: #333333;
+}
+
+.bg-verde {
+    background-color: #2d5a27 !important;
+}
+
+.text-verde {
+    color: #2d5a27 !important;
+}
+
+/* Botón Principal Dorado */
+.btn-dorado {
+    background-color: #d4af37;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-dorado:hover {
+    background-color: #bfa030;
+    color: #ffffff;
+    transform: scale(1.02);
+}
+
+/* Botón Verde */
+.btn-verde {
+    background-color: #2d5a27;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-verde:hover {
+    background-color: #21421c;
+    color: #ffffff;
+}
+
+/* Botones de enlace outline Verde */
+.btn-outline-verde {
+    color: #2d5a27;
+    border-color: #2d5a27;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-verde:hover {
+    background-color: #2d5a27;
+    color: #ffffff;
+    border-color: #2d5a27;
+}
+
+/* --- ESTRUCTURA SEMÁNTICA --- */
+header {
+    background-color: #f7d6d0;
+    color: #2d5a27;
+    border-bottom: 4px solid #d4af37;
+}
+
+section {
+    border-bottom: 2px solid #f7d6d0;
+    padding-bottom: 1.5rem;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+h2 {
+    color: #2d5a27;
+    border-left: 6px solid #d4af37;
+    padding-left: 12px;
+}
+
+/* Tarjetas de productos */
+.card {
+    border: 1px solid #f7d6d0 !important;
+}
+
+/* Aside de promociones */
+aside {
+    background-color: #f7d6d0;
+    border-left: 6px solid #2d5a27;
+    color: #2d5a27;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+.border-dorado {
+    border: 3px solid #d4af37 !important;
+}
+
+footer {
+    background-color: #2d5a27;
+    border-top: 4px solid #d4af37;
+}
+
+.text-muted-footer {
+    color: #e2e8f0;
+}
+
+/* --- MEDIA QUERY REQUERIDA (Pantallas Pequeñas < 768px) --- */
+@media (max-width: 767.98px) {
+    header h1 {
+        font-size: 1.8rem !important; /* Reduce el tamaño del título principal en móviles */
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        border-left: 4px solid #d4af37; /* Línea de título más delgada */
+    }
+
+    main {
+        margin-top: 10px !important;
+        padding: 15px !important; /* Reduce márgenes internos en celular */
+    }
+}
