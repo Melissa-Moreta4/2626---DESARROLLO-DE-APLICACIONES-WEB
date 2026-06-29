@@ -147,12 +147,47 @@
         </aside>
     </main>
 
+     <!-- Sección dinámica: Registro de productos -->
+    <section id="registro-productos" class="mb-5">
+        <h2 class="text-success">Registrar Producto</h2>
+        <form id="formProducto" class="p-3 border rounded bg-light">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" id="nombre" class="form-control" required>
+                <div class="invalid-feedback">El nombre no puede estar vacío.</div>
+            </div>
+            <div class="mb-3">
+                <label for="descripcion" class="form-label">Descripción</label>
+                <textarea id="descripcion" class="form-control" required></textarea>
+                <div class="invalid-feedback">La descripción no puede estar vacía.</div>
+            </div>
+            <div class="mb-3">
+                <label for="categoria" class="form-label">Categoría</label>
+                <select id="categoria" class="form-select" required>
+                    <option value="">Seleccione una categoría</option>
+                    <option value="Accesorios">Accesorios</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Decoración">Decoración</option>
+                </select>
+                <div class="invalid-feedback">Debe seleccionar una categoría.</div>
+            </div>
+            <button type="submit" class="btn btn-success">Agregar</button>
+        </form>
+
+        <!-- Lista dinámica -->
+        <div class="mt-4">
+            <h3 class="text-success">Productos Registrados</h3>
+            <ul id="listaProductos" class="list-group"></ul>
+            <p class="mt-2"><strong>Total de registros:</strong> <span id="totalRegistros">0</span></p>
+        </div>
+    </section>
+
     <footer class="bg-success text-white text-center p-3 mt-4 border-top border-warning">
         <p>Estudiante: Melissa Moreta | Asignatura: Desarrollo de Aplicaciones Web | Año: 2026</p>
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
